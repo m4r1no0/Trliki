@@ -1,6 +1,13 @@
+body{
+    background-color: rgb(115, 115, 244);
+    color: white;
+}
+
+
 .cajita{
     height: 200px;
     border: 1px solid black;
+    border-radius: 20px;
     font-size: 6em;
     text-align: center;
 }

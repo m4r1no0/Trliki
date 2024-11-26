@@ -8,21 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="container my-4">
+    <section class="container my-4 text-center">
         <div class="row">
             <div class="col">
+                <h1>Juego del triqui</h1>
+            </div>
+        </div>
+    </section>
+    <section class="container my-4">
+        <div class="row">
+            <div class="col text-center">
                 <label for="1">Jugador Uno</label>
-                <input type="text" id="uno">
-                <select name="Escoger " id="jugadorUno">
+                <input type="text" class="form-control" id="uno">
+                <select class="form-select my-3" name="Escoger " id="jugadorUno">
                     <option value="" selected></option>
                     <option value="X" id="jugadorUno" class="X">X</option>
                     <option value="O" id="jugadorUno" class="O">O</option>
                 </select>
             </div>
-            <div class="col">
+            <div class="col text-center">
                 <label for="2">Jugador Dos</label>
-                <input type="text" id="dos">
-                <select name="Escoger " id="jugadorDos">
+                <input type="text" class="form-control" id="dos">
+                <select class="form-select my-3" name="Escoger " id="jugadorDos">
                     <option value="" selected></option>
                     <option value="X" id="jugadorDos" class="X">X</option>
                     <option value="O" id="jugadorDos" class="O">O</option>
@@ -31,7 +38,7 @@
         </div>
         <div class="row my-2 boton">
             <div class="col">
-                <button id="guardar" class="btn btn-success">Guardar</button>
+                <button id="guardar" class="btn btn-primary">Guardar</button>
             </div>
         </div>
         <div class="row">
